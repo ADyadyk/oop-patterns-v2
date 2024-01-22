@@ -135,7 +135,7 @@ public class Characteristic {
             return this;
         }
 
-
+        // Терминальная операция:
         public Characteristic build(){
             return new Characteristic(this);
         }
